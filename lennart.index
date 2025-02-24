@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-  <info>
-    <name>Lennart's Homebrew Spells</name>
-    <description>Custom spells for Aurora Builder: "Glimpse of Emotion" and "Artful Infusion"</description>
-    <update version="1.0.0">
-      <file name="glimpse-of-emotion.xml" url="file:///C:/Users/Lennart/Documents/5e%20Character%20Builder/custom/lennart/spells/glimpse-of-emotion.xml" />
-      <file name="artful-infusion.xml" url="file:///C:/Users/Lennart/Documents/5e%20Character%20Builder/custom/lennart/spells/artful-infusion.xml" />
-    </update>
-  </info>
+    <info>
+        <name>Lennart's Homebrew Spells</name>
+        <description>Custom spells created by Lennart.</description>
+        <author>Lennart van der Meulen</author>
+        <update version="1.0.0">
+            <file name="lennart.index" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/main/lennart.index" />
+        </update>
+    </info>
+    <files>
+        <file name="artful-infusion.xml" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/main/lennart/artful-infusion.xml" />
+        <file name="glimpse-of-emotion.xml" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/main/lennart/glimpse-of-emotion.xml" />
+    </files>
 </index>
