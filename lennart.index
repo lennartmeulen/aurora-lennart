@@ -4,12 +4,12 @@
         <name>Lennart's Homebrew Spells</name>
         <description>Custom spells created by Lennart.</description>
         <author>Lennart van der Meulen</author>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="lennart.index" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/main/lennart.index" />
         </update>
     </info>
     <files>
-        <file name="artful-infusion.xml" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/main/lennart/artful-infusion.xml" />
-        <file name="glimpse-of-emotion.xml" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/main/lennart/glimpse-of-emotion.xml" />
+        <file name="artful-infusion.xml" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/refs/heads/main/artful-infusion.xml" />
+        <file name="glimpse-of-emotion.xml" url="https://raw.githubusercontent.com/lennartmeulen/aurora-lennart/refs/heads/main/glimpse-of-emotion.xml" />
     </files>
 </index>
