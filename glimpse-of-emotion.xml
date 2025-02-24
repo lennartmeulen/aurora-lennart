@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <element name="Glimpse of Emotion" type="Spell" source="Lennart's Homebrew Spells" id="ID_LENNART_SPELL_GLIMPSE_OF_EMOTION">
+    <description>
+      <p>
+        You create a painting (or sketch) that subtly influences those who view it. You can only produce up to 3 such paintings per long rest. When you cast this cantrip, choose one of the following emotions (a creature can only be under the effect of one emotion from this cantrip at a time):
+      </p>
+      <ul>
+        <li><strong>Joy:</strong> The creature has advantage on its next attack roll or ability check (whichever occurs first).</li>
+        <li><strong>Sorrow:</strong> The creature has disadvantage on its next attack roll or ability check (whichever occurs first).</li>
+        <li><strong>Calm:</strong> The creature gains temporary hit points equal to your spellcasting ability modifier (minimum of 1).</li>
+        <li><strong>Fear:</strong> The creature’s movement speed is reduced by 10 feet until the end of its next turn.</li>
+      </ul>
+      <p>
+        A creature must willingly view the painting (i.e., spend at least a brief moment looking at it). Once the effect is applied, it lasts for 1 minute or until the creature benefits from a different instance of Glimpse of Emotion (i.e., you can’t stack multiple emotions on the same target).
+      </p>
+      <h4>Flavor:</h4>
+      <p>Through a flourish of your brush, you weave subtle emotion into your artwork. Those who lay eyes on it cannot help but feel a touch of magic stirring their hearts.</p>
+    </description>
+    <setters>
+      <set name="level">Cantrip</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute</set>
+      <set name="source">Lennart's Homebrew Spells</set>
+      <set name="classes">Rogue, Ranger</set>
+    </setters>
+  </element>
+</elements>

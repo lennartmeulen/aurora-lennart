@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <element name="Artful Infusion" type="Spell" source="Lennart's Homebrew Spells" id="ID_LENNART_SPELL_ARTFUL_INFUSION">
+    <description>
+      <p>
+        You imbue one of your paintings with powerful emotional magic. Any creature that has line of sight to the painting (and takes at least a moment to look at it) can be affected by this spell. They do not need to stare continuously, but if they can no longer see the painting (for instance, they move behind a wall or the painting is covered), the effect ends for them.
+      </p>
+      <h4>Emotional Effects:</h4>
+      <ul>
+        <li><strong>Inspiration:</strong> No saving throw required. Gain +1d4 on attack rolls, saving throws, and ability checks while maintaining concentration and having sight of the painting.</li>
+        <li><strong>Despair:</strong> Wisdom saving throw required. On failure, creature has disadvantage on attack rolls and saving throws. On damage, repeat the save to end the effect.</li>
+        <li><strong>Fascination:</strong> Wisdom saving throw required. On failure, creature is charmed by you and cannot take harmful actions against you. Ends on damage or loss of sight.</li>
+      </ul>
+      <h4>At Higher Levels:</h4>
+      <p>When cast using a spell slot of 2nd level or higher, the duration increases by 10 minutes for each slot level above 1st.</p>
+      <h4>Flavor:</h4>
+      <p>By blending your artistic skill with magic, you invoke powerful emotions in those who behold your masterpiece. Your art can uplift allies, plunge foes into despair, or entrance enemies with its sheer beauty—all without requiring a constant gaze.</p>
+    </description>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S, M (a paintbrush)</set>
+      <set name="duration">10 minutes (Concentration)</set>
+      <set name="source">Lennart's Homebrew Spells</set>
+      <set name="classes">Rogue, Ranger</set>
+    </setters>
+  </element>
+</elements>
