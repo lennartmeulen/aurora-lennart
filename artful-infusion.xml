@@ -13,8 +13,6 @@
       </ul>
       <h4>At Higher Levels:</h4>
       <p>When cast using a spell slot of 2nd level or higher, the duration increases by 10 minutes for each slot level above 1st.</p>
-      <h4>Flavor:</h4>
-      <p>By blending your artistic skill with magic, you invoke powerful emotions in those who behold your masterpiece. Your art can uplift allies, plunge foes into despair, or entrance enemies with its sheer beauty—all without requiring a constant gaze.</p>
     </description>
     <setters>
       <set name="level">1</set>
